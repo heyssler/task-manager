@@ -6,19 +6,23 @@ Before running the app, make sure to have Node and Python3 on your machine. I ha
 
 ### Backend
 
-`cd backend/`
-`python3 -m venv venv`
-`. venv/bin/activate`
-`pip3 install -r requirements.txt`
-`python3 run.py`
+```
+cd backend/
+python3 -m venv venv
+. venv/bin/activate
+pip3 install -r requirements.txt
+python3 run.py
+```
 
 The API should now be available at http://localhost:5000.
 
 ### Frontend
 
-`cd frontend/`
-`npm install`
-`npm start`
+```
+cd frontend/
+npm install
+npm start
+```
 
 The React UI should now be available at http://localhost:3000.
 
@@ -40,13 +44,17 @@ I've also included:
 
 ### Backend
 
-`cd backend/`
-`pytest`
+```
+cd backend/
+pytest
+```
 
 ### Frontend
 
-`cd frontend/`
-`npm test`
+```
+cd frontend/
+npm test
+```
 
 ## 4. Basic Architecture
 
