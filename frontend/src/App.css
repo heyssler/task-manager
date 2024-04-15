@@ -1,0 +1,96 @@
+
+/* ---- TaskList.jsx ---- */
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.task-form label {
+  display: block;
+  font-weight: bold;
+}
+
+.task-form input,
+.task-form textarea {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.task-form button {
+  background-color: #5a9afa;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* ---- Task.jsx ---- */
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.task.completed {
+  background-color: #d7f5d6;
+}
+
+.task-content {
+  display: flex;
+  flex-grow: 1;
+  gap: 10px;
+}
+
+.task-content i {
+  line-height: 2.6; /* this is to fix the description alignment */
+}
+
+/* ---- TaskManager.jsx ---- */
+
+.delete-btn {
+  background-color: rgb(103, 103, 103);
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.centered-heading {
+  text-align: center;
+}
+
+.sorting-options {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 70px;
+}
+
+.sorting-options button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.sorting-options h1 {
+  margin-right: 10px;
+  font-size: 20px;
+  padding: 0.5rem 0.75rem;
+}
